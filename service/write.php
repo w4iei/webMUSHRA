@@ -94,11 +94,21 @@ $write_pc = false;
 $pcCsvData = array();
 // array_push($pcCsvData, array("session_test_id", "participant_email", "participant_age", "participant_gender", "trial_id", "choice_reference", "choice_non_reference", "choice_answer", "choice_time", "choice_comment"));
 
+function extract_pair_id($trial_id) {
+	if (preg_match('/^[0-9]+$/', strval($trial_id))) {
+		return intval($trial_id);
+	}
+	if (preg_match('/(?:^|_)pair([0-9]+)(?:_|$)/', $trial_id, $matches)) {
+		return intval($matches[1]);
+	}
+	return "";
+}
+
 $input = array("session_test_id");
 for($i =0; $i < $length; $i++){
 	array_push($input, $session->participant->name[$i]);
 }
-array_push($input, "trial_id", "choice_reference", "choice_non_reference", "choice_answer", "choice_time", "choice_comment");
+array_push($input, "trial_id", "pair_id", "choice_reference", "choice_non_reference", "choice_answer", "choice_time", "choice_comment");
 array_push($pcCsvData, $input);
 
 
@@ -113,7 +123,16 @@ foreach ($session->trials as $trial) {
 		for($i =0; $i < $length; $i++){
 			array_push($results, $session->participant->response[$i]);
 		}  
-		array_push($results, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment);
+		array_push(
+			$results,
+			$trial->id,
+			extract_pair_id($trial->id),
+			$response->reference,
+			$response->nonReference,
+			$response->answer,
+			$response->time,
+			$response->comment
+		);
 	  
 	  	array_push($pcCsvData, $results); 
 		  
@@ -129,6 +148,54 @@ if ($write_pc) {
 	$fp = fopen($filename, 'a');
 	foreach ($pcCsvData as $row) {
 		if ($isFile) {	    	
+			$isFile = false;
+		} else {
+		   fputcsv($fp, $row);
+		}
+	}
+	fclose($fp);
+}
+
+// paired distance
+
+$write_pd = false;
+$pdCsvData = array();
+
+$input = array("session_test_id");
+for($i =0; $i < $length; $i++){
+	array_push($input, $session->participant->name[$i]);
+}
+array_push($input, "trial_id", "pair_id", "distance", "distance_time");
+array_push($pdCsvData, $input);
+
+foreach ($session->trials as $trial) {
+  if ($trial->type == "paired_distance") {
+	  foreach ($trial->responses as $response) {
+	  	$write_pd = true;
+
+		$results = array($session->testId);
+		for($i =0; $i < $length; $i++){
+			array_push($results, $session->participant->response[$i]);
+		}
+		array_push(
+			$results,
+			$trial->id,
+			extract_pair_id($trial->id),
+			$response->distance,
+			$response->time
+		);
+
+	  	array_push($pdCsvData, $results);
+	  }
+  }
+}
+
+if ($write_pd) {
+	$filename = $filepathPrefix."paired_distance".$filepathPostfix;
+	$isFile = is_file($filename);
+	$fp = fopen($filename, 'a');
+	foreach ($pdCsvData as $row) {
+		if ($isFile) {
 			$isFile = false;
 		} else {
 		   fputcsv($fp, $row);

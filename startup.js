@@ -91,6 +91,9 @@ function addPagesToPageManager(_pageManager, _pages) {
         var pcPageManager = new PairedComparisonPageManager();
         pcPageManager.createPages(_pageManager, pageTemplateRenderer, pageConfig, audioContext, config.bufferSize, audioFileLoader, session, errorHandler, config.language);
         pcPageManager = null;
+      } else if (pageConfig.type == "paired_distance") {
+        var pairedDistancePage = new PairedDistancePage(_pageManager, pageTemplateRenderer, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, errorHandler, config.language);
+        _pageManager.addPage(pairedDistancePage);
       } else if (pageConfig.type == "bs1116") {
         var bs1116PageManager = new BS1116PageManager();
         bs1116PageManager.createPages(_pageManager, pageTemplateRenderer, pageConfig, audioContext, config.bufferSize, audioFileLoader, session, errorHandler, config.language);
