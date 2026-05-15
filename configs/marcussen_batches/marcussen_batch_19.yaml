@@ -1,0 +1,493 @@
+testname: "Marcussen AB Batch 19"
+testId: "marcussen_batch_19"
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+language: "en"
+remoteService: "service/write.php"
+
+pages:
+  - type: generic
+    id: "intro"
+    name: "Instructions"
+    content: "Marcussen listening test batch 19.<br/><br/>Each trial presents two audio files, item 1 and item 2. Rate how different they sound on a scale from 1 to 7, where 1 means most similar and 7 means incredibly different.<br/><br/>Keyboard shortcuts: <strong>Q</strong> plays item 1, <strong>W</strong> plays item 2, <strong>E</strong> plays item 1 then item 2, <strong>Space</strong> pauses playback, <strong>1-7</strong> selects the distance rating, and <strong>Cmd/Ctrl+Enter</strong> advances while the comment box is focused.<br/><br/>This batch contains 67 trials."
+  - type: volume
+    id: "volume"
+    name: "Volume"
+    content: "Adjust to a comfortable listening level before starting the trials."
+    stimulus: "configs/resources/audio/marcussen_batches/batch_19/trial_001_pair_214_item_1.wav"
+    defaultVolume: 0.5
+  - type: paired_distance
+    id: "214"
+    name: "Trial 001"
+    content: "Family: Flutes<br/>Division: Positive Console<br/>Registration: F4+F1<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_001_pair_214_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_001_pair_214_item_2.wav"
+  - type: paired_distance
+    id: "2002"
+    name: "Trial 002"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T16<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_002_pair_2002_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_002_pair_2002_item_2.wav"
+  - type: paired_distance
+    id: "2070"
+    name: "Trial 003"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T16+T8<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_003_pair_2070_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_003_pair_2070_item_2.wav"
+  - type: paired_distance
+    id: "2066"
+    name: "Trial 004"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T16+T8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_004_pair_2066_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_004_pair_2066_item_2.wav"
+  - type: paired_distance
+    id: "385"
+    name: "Trial 005"
+    content: "Family: Flutes<br/>Division: Positive Back<br/>Registration: F8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_005_pair_385_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_005_pair_385_item_2.wav"
+  - type: paired_distance
+    id: "2371"
+    name: "Trial 006"
+    content: "Family: Strings<br/>Division: Upper Division<br/>Registration: VdG8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_006_pair_2371_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_006_pair_2371_item_2.wav"
+  - type: paired_distance
+    id: "2101"
+    name: "Trial 007"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T32<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_007_pair_2101_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_007_pair_2101_item_2.wav"
+  - type: paired_distance
+    id: "1438"
+    name: "Trial 008"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8+O4<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_008_pair_1438_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_008_pair_1438_item_2.wav"
+  - type: paired_distance
+    id: "774"
+    name: "Trial 009"
+    content: "Family: Flutes<br/>Division: Main Division<br/>Registration: P8+F8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_009_pair_774_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_009_pair_774_item_2.wav"
+  - type: paired_distance
+    id: "1959"
+    name: "Trial 010"
+    content: "Family: Reeds<br/>Division: Positive Console<br/>Registration: R8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_010_pair_1959_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_010_pair_1959_item_2.wav"
+  - type: paired_distance
+    id: "1153"
+    name: "Trial 011"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P16<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_011_pair_1153_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_011_pair_1153_item_2.wav"
+  - type: paired_distance
+    id: "196"
+    name: "Trial 012"
+    content: "Family: Flutes<br/>Division: Upper Division<br/>Registration: F4<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_012_pair_196_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_012_pair_196_item_2.wav"
+  - type: paired_distance
+    id: "69"
+    name: "Trial 013"
+    content: "Family: Flutes<br/>Division: Main Division<br/>Registration: F4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_013_pair_69_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_013_pair_69_item_2.wav"
+  - type: paired_distance
+    id: "1796"
+    name: "Trial 014"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: P8+O4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_014_pair_1796_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_014_pair_1796_item_2.wav"
+  - type: paired_distance
+    id: "1398"
+    name: "Trial 015"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8+O4<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_015_pair_1398_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_015_pair_1398_item_2.wav"
+  - type: paired_distance
+    id: "1573"
+    name: "Trial 016"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8+O4+O2<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_016_pair_1573_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_016_pair_1573_item_2.wav"
+  - type: paired_distance
+    id: "1463"
+    name: "Trial 017"
+    content: "Family: Principals<br/>Division: Pedal<br/>Registration: P8+O4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_017_pair_1463_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_017_pair_1463_item_2.wav"
+  - type: paired_distance
+    id: "322"
+    name: "Trial 018"
+    content: "Family: Flutes<br/>Division: Main Division<br/>Registration: F8<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_018_pair_322_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_018_pair_322_item_2.wav"
+  - type: paired_distance
+    id: "1086"
+    name: "Trial 019"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: O4<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_019_pair_1086_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_019_pair_1086_item_2.wav"
+  - type: paired_distance
+    id: "2283"
+    name: "Trial 020"
+    content: "Family: Reeds<br/>Division: Upper Division<br/>Registration: T8+T4<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_020_pair_2283_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_020_pair_2283_item_2.wav"
+  - type: paired_distance
+    id: "2022"
+    name: "Trial 021"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T16<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_021_pair_2022_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_021_pair_2022_item_2.wav"
+  - type: paired_distance
+    id: "24"
+    name: "Trial 022"
+    content: "Family: Flutes<br/>Division: Pedal<br/>Registration: F16<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_022_pair_24_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_022_pair_24_item_2.wav"
+  - type: paired_distance
+    id: "1373"
+    name: "Trial 023"
+    content: "Family: Principals<br/>Division: Positive Back<br/>Registration: P8<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_023_pair_1373_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_023_pair_1373_item_2.wav"
+  - type: paired_distance
+    id: "843"
+    name: "Trial 024"
+    content: "Family: Flutes<br/>Division: Positive Back<br/>Registration: P8+F8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_024_pair_843_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_024_pair_843_item_2.wav"
+  - type: paired_distance
+    id: "2217"
+    name: "Trial 025"
+    content: "Family: Reeds<br/>Division: Upper Division<br/>Registration: T8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_025_pair_2217_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_025_pair_2217_item_2.wav"
+  - type: paired_distance
+    id: "356"
+    name: "Trial 026"
+    content: "Family: Flutes<br/>Division: Pedal<br/>Registration: F8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_026_pair_356_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_026_pair_356_item_2.wav"
+  - type: paired_distance
+    id: "1831"
+    name: "Trial 027"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: P8+O4+Q3<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_027_pair_1831_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_027_pair_1831_item_2.wav"
+  - type: paired_distance
+    id: "1252"
+    name: "Trial 028"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_028_pair_1252_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_028_pair_1252_item_2.wav"
+  - type: paired_distance
+    id: "2176"
+    name: "Trial 029"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_029_pair_2176_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_029_pair_2176_item_2.wav"
+  - type: paired_distance
+    id: "396"
+    name: "Trial 030"
+    content: "Family: Flutes<br/>Division: Positive Back<br/>Registration: F8<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_030_pair_396_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_030_pair_396_item_2.wav"
+  - type: paired_distance
+    id: "835"
+    name: "Trial 031"
+    content: "Family: Flutes<br/>Division: Pedal<br/>Registration: P8+F8<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_031_pair_835_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_031_pair_835_item_2.wav"
+  - type: paired_distance
+    id: "2042"
+    name: "Trial 032"
+    content: "Family: Reeds<br/>Division: Main Division<br/>Registration: T16+T8<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_032_pair_2042_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_032_pair_2042_item_2.wav"
+  - type: paired_distance
+    id: "402"
+    name: "Trial 033"
+    content: "Family: Flutes<br/>Division: Positive Back<br/>Registration: F8<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_033_pair_402_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_033_pair_402_item_2.wav"
+  - type: paired_distance
+    id: "85"
+    name: "Trial 034"
+    content: "Family: Flutes<br/>Division: Main Division<br/>Registration: F4<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_034_pair_85_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_034_pair_85_item_2.wav"
+  - type: paired_distance
+    id: "2304"
+    name: "Trial 035"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: Fag16+T8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_035_pair_2304_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_035_pair_2304_item_2.wav"
+  - type: paired_distance
+    id: "1825"
+    name: "Trial 036"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: P8+O4+Q3<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_036_pair_1825_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_036_pair_1825_item_2.wav"
+  - type: paired_distance
+    id: "881"
+    name: "Trial 037"
+    content: "Family: Flutes<br/>Division: Positive Back<br/>Registration: P8+F8<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_037_pair_881_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_037_pair_881_item_2.wav"
+  - type: paired_distance
+    id: "152"
+    name: "Trial 038"
+    content: "Family: Flutes<br/>Division: Positive Console<br/>Registration: F4<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_038_pair_152_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_038_pair_152_item_2.wav"
+  - type: paired_distance
+    id: "1107"
+    name: "Trial 039"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: O4<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_039_pair_1107_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_039_pair_1107_item_2.wav"
+  - type: paired_distance
+    id: "1064"
+    name: "Trial 040"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: O4<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_040_pair_1064_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_040_pair_1064_item_2.wav"
+  - type: paired_distance
+    id: "515"
+    name: "Trial 041"
+    content: "Family: Flutes<br/>Division: Upper Division<br/>Registration: F8<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_041_pair_515_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_041_pair_515_item_2.wav"
+  - type: paired_distance
+    id: "189"
+    name: "Trial 042"
+    content: "Family: Flutes<br/>Division: Upper Division<br/>Registration: F4<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_042_pair_189_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_042_pair_189_item_2.wav"
+  - type: paired_distance
+    id: "306"
+    name: "Trial 043"
+    content: "Family: Flutes<br/>Division: Main Division<br/>Registration: F8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_043_pair_306_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_043_pair_306_item_2.wav"
+  - type: paired_distance
+    id: "922"
+    name: "Trial 044"
+    content: "Family: Flutes<br/>Division: Upper Division<br/>Registration: P8+F8<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_044_pair_922_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_044_pair_922_item_2.wav"
+  - type: paired_distance
+    id: "1985"
+    name: "Trial 045"
+    content: "Family: Reeds<br/>Division: Main Division<br/>Registration: T16<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_045_pair_1985_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_045_pair_1985_item_2.wav"
+  - type: paired_distance
+    id: "1784"
+    name: "Trial 046"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: P8<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_046_pair_1784_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_046_pair_1784_item_2.wav"
+  - type: paired_distance
+    id: "1310"
+    name: "Trial 047"
+    content: "Family: Principals<br/>Division: Pedal<br/>Registration: P8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_047_pair_1310_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_047_pair_1310_item_2.wav"
+  - type: paired_distance
+    id: "1078"
+    name: "Trial 048"
+    content: "Family: Principals<br/>Division: Upper Division<br/>Registration: O4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_048_pair_1078_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_048_pair_1078_item_2.wav"
+  - type: paired_distance
+    id: "92"
+    name: "Trial 049"
+    content: "Family: Flutes<br/>Division: Pedal<br/>Registration: F4<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_049_pair_92_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_049_pair_92_item_2.wav"
+  - type: paired_distance
+    id: "1449"
+    name: "Trial 050"
+    content: "Family: Principals<br/>Division: Pedal<br/>Registration: P8+O4<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_050_pair_1449_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_050_pair_1449_item_2.wav"
+  - type: paired_distance
+    id: "1733"
+    name: "Trial 051"
+    content: "Family: Principals<br/>Division: Positive Console<br/>Registration: O4<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_051_pair_1733_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_051_pair_1733_item_2.wav"
+  - type: paired_distance
+    id: "2402"
+    name: "Trial 052"
+    content: "Family: Strings<br/>Division: Upper Division<br/>Registration: VdG8<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_052_pair_2402_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_052_pair_2402_item_2.wav"
+  - type: paired_distance
+    id: "2364"
+    name: "Trial 053"
+    content: "Family: Reeds<br/>Division: Positive Console<br/>Registration: VH8<br/>Pitch: c2<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_053_pair_2364_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_053_pair_2364_item_2.wav"
+  - type: paired_distance
+    id: "156"
+    name: "Trial 054"
+    content: "Family: Flutes<br/>Division: Positive Console<br/>Registration: F4<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_054_pair_156_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_054_pair_156_item_2.wav"
+  - type: paired_distance
+    id: "1014"
+    name: "Trial 055"
+    content: "Family: Principals<br/>Division: Positive Back<br/>Registration: O4<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_055_pair_1014_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_055_pair_1014_item_2.wav"
+  - type: paired_distance
+    id: "1392"
+    name: "Trial 056"
+    content: "Family: Principals<br/>Division: Positive Back<br/>Registration: P8<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_056_pair_1392_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_056_pair_1392_item_2.wav"
+  - type: paired_distance
+    id: "1336"
+    name: "Trial 057"
+    content: "Family: Principals<br/>Division: Positive Back<br/>Registration: P8<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_057_pair_1336_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_057_pair_1336_item_2.wav"
+  - type: paired_distance
+    id: "2076"
+    name: "Trial 058"
+    content: "Family: Reeds<br/>Division: Pedal<br/>Registration: T32<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_058_pair_2076_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_058_pair_2076_item_2.wav"
+  - type: paired_distance
+    id: "996"
+    name: "Trial 059"
+    content: "Family: Principals<br/>Division: Pedal<br/>Registration: O4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_059_pair_996_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_059_pair_996_item_2.wav"
+  - type: paired_distance
+    id: "178"
+    name: "Trial 060"
+    content: "Family: Flutes<br/>Division: Upper Division<br/>Registration: F4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_060_pair_178_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_060_pair_178_item_2.wav"
+  - type: paired_distance
+    id: "1711"
+    name: "Trial 061"
+    content: "Family: Principals<br/>Division: Positive Back<br/>Registration: P8+O4+Sesq<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_061_pair_1711_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_061_pair_1711_item_2.wav"
+  - type: paired_distance
+    id: "1289"
+    name: "Trial 062"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8<br/>Pitch: c3<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_062_pair_1289_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_062_pair_1289_item_2.wav"
+  - type: paired_distance
+    id: "1411"
+    name: "Trial 063"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8+O4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_063_pair_1411_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_063_pair_1411_item_2.wav"
+  - type: paired_distance
+    id: "1464"
+    name: "Trial 064"
+    content: "Family: Principals<br/>Division: Pedal<br/>Registration: P8+O4<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_064_pair_1464_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_064_pair_1464_item_2.wav"
+  - type: paired_distance
+    id: "1552"
+    name: "Trial 065"
+    content: "Family: Principals<br/>Division: Main Division<br/>Registration: P8+O4+O2<br/>Pitch: C<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_065_pair_1552_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_065_pair_1552_item_2.wav"
+  - type: paired_distance
+    id: "1004"
+    name: "Trial 066"
+    content: "Family: Principals<br/>Division: Pedal<br/>Registration: O4<br/>Pitch: c1<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_066_pair_1004_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_066_pair_1004_item_2.wav"
+  - type: paired_distance
+    id: "2035"
+    name: "Trial 067"
+    content: "Family: Reeds<br/>Division: Main Division<br/>Registration: T16+T8<br/>Pitch: c0<br/>Microphone: Close"
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_19/trial_067_pair_2035_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_19/trial_067_pair_2035_item_2.wav"
+  - type: finish
+    name: "Thank you"
+    content: "Thank you for completing this batch."
+    showResults: false
+    writeResults: true

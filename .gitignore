@@ -61,3 +61,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Generated Marcussen batch audio exports
+configs/resources/audio/marcussen_batches/**/*.wav
