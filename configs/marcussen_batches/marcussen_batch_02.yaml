@@ -5,6 +5,10 @@ stopOnErrors: true
 showButtonPreviousPage: true
 language: "en"
 remoteService: "service/write.php"
+allowedPasswords:
+  - "marcussen"
+  - "hans"
+  - "timbre"
 
 pages:
   - type: generic

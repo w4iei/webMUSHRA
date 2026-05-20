@@ -108,7 +108,10 @@ $session = array(
             'id' => 'trial_pair42_distance',
             'responses' => array(
                 array(
+                    'stimulus1' => '1',
+                    'stimulus2' => '2',
                     'distance' => '4',
+                    'comment' => 'item 1 is brighter',
                     'time' => 5,
                 ),
             ),
@@ -244,14 +247,14 @@ assert_same(
 
 $pairedDistanceRows = read_csv_rows($sessionDirectory . '/paired_distance.csv');
 assert_same(
-    array('session_test_id', 'email', 'age', 'trial_id', 'pair_id', 'distance', 'distance_time'),
+    array('session_test_id', 'email', 'age', 'trial_id', 'pair_id', 'stimulus_1', 'stimulus_2', 'distance', 'distance_comment', 'distance_time'),
     $pairedDistanceRows[0],
     'Paired distance header should include pair_id.'
 );
 assert_same(
-    array('PHP 8.4 Regression Test', "'=listener@example.com", '31', 'trial_pair42_distance', '42', '4', '5'),
+    array('PHP 8.4 Regression Test', "'=listener@example.com", '31', 'trial_pair42_distance', '42', '1', '2', '4', 'item 1 is brighter', '5'),
     $pairedDistanceRows[1],
-    'Paired distance rows should preserve the parsed pair_id.'
+    'Paired distance rows should preserve the parsed pair_id, stored stimuli, and qualitative comment.'
 );
 
 write_results(array('sessionJSON' => json_encode($session)), $resultsRoot);
