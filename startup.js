@@ -13,7 +13,7 @@ function checkOrientation() {//when changing from potrait to landscape change to
 }
 
 window.onresize = function(event) {
-  if (pageManager.getCurrentPage() && pageManager.getCurrentPage().isMushra == true) {
+  if (pageManager && pageManager.getCurrentPage() && pageManager.getCurrentPage().isMushra == true) {
     pageManager.getCurrentPage().renderCanvas("mushra_items");
   }
 
@@ -63,6 +63,62 @@ function callbackURLFound() {
     ul.append($('<li>' + errors[i] + '</li>'));
   }
   $("#popupErrors").popup("open");
+}
+
+function configuredPasswords(config) {
+  return Array.isArray(config.allowedPasswords) ? config.allowedPasswords : [];
+}
+
+function storeAccessPassword(password) {
+  var index = session.participant.name.indexOf("access_password");
+
+  if (index === -1) {
+    session.participant.name.push("access_password");
+    session.participant.response.push(password);
+  } else {
+    session.participant.response[index] = password;
+  }
+}
+
+function startLoadingFiles() {
+  interval2 = setInterval(function() {
+    clearInterval(interval2);
+    audioFileLoader.startLoading(callbackFilesLoaded);
+  }, 10);
+}
+
+function promptForAccessPassword(config) {
+  var passwords = configuredPasswords(config);
+  if (passwords.length === 0) {
+    startLoadingFiles();
+    return;
+  }
+
+  $("#accessPasswordPrompt").text(config.passwordPrompt || "Enter the experiment password to continue.");
+  $("#accessPasswordInput").val('');
+  $("#accessPasswordError").text('');
+
+  $("#accessPasswordSubmit").off("click").on("click", function() {
+    var password = $("#accessPasswordInput").val();
+    if (passwords.indexOf(password) !== -1) {
+      storeAccessPassword(password);
+      $("#popupAccess").popup("close");
+      startLoadingFiles();
+    } else {
+      $("#accessPasswordError").text("Incorrect password.");
+      $("#accessPasswordInput").val('').focus();
+    }
+  });
+
+  $("#accessPasswordInput").off("keydown").on("keydown", function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      $("#accessPasswordSubmit").click();
+    }
+  });
+
+  $("#popupAccess").popup("open");
+  $("#accessPasswordInput").focus();
 }
 
 function addPagesToPageManager(_pageManager, _pages) {
@@ -115,7 +171,7 @@ function addPagesToPageManager(_pageManager, _pages) {
 }
 
 for (var i = 0; i < $("body").children().length; i++) {
-  if ($("body").children().eq(i).attr('id') != "popupErrors" && $("body").children().eq(i).attr('id') != "popupDialog") {
+  if ($("body").children().eq(i).attr('id') != "popupErrors" && $("body").children().eq(i).attr('id') != "popupDialog" && $("body").children().eq(i).attr('id') != "popupAccess") {
     $("body").children().eq(i).addClass('ui-disabled');
   }
 }
@@ -129,6 +185,7 @@ function startup(config) {
   if (config == null) {
     errorHandler.sendError("URL couldn't be found!");
     callbackURLFound();
+    return;
   }
 
   $.mobile.page.prototype.options.theme = 'a';
@@ -204,11 +261,7 @@ function startup(config) {
   pageManager.addCallbackPageEventChanged(pageTemplateRenderer.refresh.bind(pageTemplateRenderer));
 
   addPagesToPageManager(pageManager, config.pages);
-
-  interval2 = setInterval(function() {
-    clearInterval(interval2);
-    audioFileLoader.startLoading(callbackFilesLoaded);
-  }, 10);
+  promptForAccessPassword(config);
 
 }
 
