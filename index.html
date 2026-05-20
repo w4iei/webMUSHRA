@@ -173,6 +173,19 @@ will be prosecuted to the maximum extent possible under law.
       <div id="popupResultsContent" style="background-color: white;" class="ui-corner-bottom ui-content">
       </div>
     </div>
+
+    <div data-role="popup" data-history="false" data-position-to="window" data-transition="pop" id="popupAccess" data-overlay-theme="a" data-theme="c" data-dismissible="false" class="ui-corner-all">
+      <div data-role="header" class="ui-corner-top" style="background-color: #FFb500;">
+        <h1>Protected Experiment</h1>
+      </div>
+      <div class="ui-corner-bottom ui-content" style="background-color: white; min-width: 22em;">
+        <p id="accessPasswordPrompt">Enter the experiment password to continue.</p>
+        <label for="accessPasswordInput">Password</label>
+        <input type="password" id="accessPasswordInput" />
+        <div id="accessPasswordError" style="color:red; font-weight:bold;"></div>
+        <button id="accessPasswordSubmit" data-role="button" data-inline="true">Continue</button>
+      </div>
+    </div>
     <!-- build:js:generic startup.min.js -->
     <script src="startup.js"></script>
     <!-- /build -->

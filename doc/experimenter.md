@@ -21,6 +21,8 @@ At the top level of the config file, general options of the experiment are store
 * **stopOnErrors** If set to true, the experiment will stop on any errors (e.g. if samples sizes do not match). Please watch the console log especially when unexpected behaviour occurs.
 * **showButtonPreviousPage** If set to true, the participant can navigate to previous pages.
 * **remoteService** A service/URL to which the results (JSON object) are sent. A PHP web service ("service/write.php") is available which writes the results into the "/results" folder. 
+* **allowedPasswords** Optional array of passwords. If configured, participants must enter one of these passwords before audio files start loading, and the accepted password is stored in the CSV output as `access_password`.
+* **passwordPrompt** Optional text shown in the password dialog.
 * **pages** An array of experiment pages, random keyword or an pages array ([Array]). 
 
 #### `random`

@@ -54,10 +54,58 @@ The experiment configurations are stored in the `configs/` folder. To load a con
 
 ### Docker
 
-You can use docker to set up webMUSHRA quickly. Just run
-`docker-compose -f docker-compose.yml build` to build the webMUSHRA docker container.
+You can use Docker Compose to run webMUSHRA locally with Apache + PHP.
 
-To run the container use webMUSHRA `docker-compose -f docker-compose.yml up`. We configured the docker image so that the `configs` and the `results` folder is mounted inside the container so that you can modify it on the fly and receive results within the `results` folder.
+From the `webMUSHRA` directory, build and start the container with:
+
+```bash
+docker-compose up -d --build
+```
+
+On macOS, if your Docker CLI is configured to use Colima, make sure `colima start` has been run first.
+
+The app will be available at:
+
+```text
+http://localhost:8000
+```
+
+To open a specific experiment configuration, use the `config` query parameter, for example:
+
+```text
+http://localhost:8000/?config=default.yaml
+```
+
+The Compose setup bind-mounts:
+
+* `configs/` to `/var/www/html/configs`
+* `results/` to `/var/www/html/results`
+
+That means:
+
+* changes to YAML configs and config-side assets are available immediately after a browser refresh
+* result CSV files are written directly into the local `results/` folder
+* changes to application code still require a rebuild, because the rest of the app is copied into the image at build time
+
+If `configs/` bind-mounting is unreliable on your Mac debug setup, use `docker-compose.mac-debug.yml` instead. That variant mounts only `results/`, so config changes require a rebuild but avoid the missing-YAML issue:
+
+```bash
+docker-compose -f docker-compose.mac-debug.yml up -d --build
+```
+
+For a clean rebuild:
+
+```bash
+docker-compose down --remove-orphans
+docker-compose build --no-cache
+docker-compose up
+```
+
+To stop the server:
+
+```bash
+docker-compose down
+```
 
 #### Note for Docker on Windows
 
