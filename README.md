@@ -67,13 +67,13 @@ On macOS, if your Docker CLI is configured to use Colima, make sure `colima star
 The app will be available at:
 
 ```text
-http://localhost:8000
+http://localhost:8080
 ```
 
 To open a specific experiment configuration, use the `config` query parameter, for example:
 
 ```text
-http://localhost:8000/?config=default.yaml
+http://localhost:8080/?config=default.yaml
 ```
 
 The Compose setup bind-mounts:

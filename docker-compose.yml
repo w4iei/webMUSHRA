@@ -7,4 +7,4 @@ services:
       - ./configs:/var/www/html/configs
       - ./results:/var/www/html/results
     ports:
-      - "8000:80"
+      - "8080:80"
