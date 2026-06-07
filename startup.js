@@ -82,6 +82,12 @@ function storeAccessPassword(password) {
 
 function startLoadingFiles() {
   interval2 = setInterval(function() {
+    $.mobile.loading("show", {
+      text : "Loading...",
+      textVisible : true,
+      theme : "a",
+      html : ""
+    });
     clearInterval(interval2);
     audioFileLoader.startLoading(callbackFilesLoaded);
   }, 10);
@@ -102,8 +108,8 @@ function promptForAccessPassword(config) {
     var password = $("#accessPasswordInput").val();
     if (passwords.indexOf(password) !== -1) {
       storeAccessPassword(password);
+      $("#popupAccess").off("popupafterclose.access").one("popupafterclose.access", startLoadingFiles);
       $("#popupAccess").popup("close");
-      startLoadingFiles();
     } else {
       $("#accessPasswordError").text("Incorrect password.");
       $("#accessPasswordInput").val('').focus();
@@ -192,17 +198,7 @@ function startup(config) {
   }
 
   $.mobile.page.prototype.options.theme = 'a';
-  var interval = setInterval(function() {
-    $.mobile.loading("show", {
-      text : "Loading...",
-      textVisible : true,
-      theme : "a",
-      html : ""
-    });
-    clearInterval(interval);
-  }, 1);
-  
-  
+
   if (pageManager !== null) { // clear everything for new experiment
     pageTemplateRenderer.clear();
     $("#page_content").empty();
