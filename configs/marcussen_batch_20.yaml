@@ -18,7 +18,7 @@ pages:
   - type: generic
     id: "intro"
     name: "Instructions"
-    content: "Marcussen listening test batch 20.<br/><br/>Each trial presents two audio files, item 1 and item 2. Rate how different they sound on a scale from 1 to 7, where 1 means most similar and 7 means incredibly different.<br/><br/>Keyboard shortcuts: <strong>Q</strong> plays item 1, <strong>W</strong> plays item 2, <strong>E</strong> plays item 1 then item 2, <strong>Space</strong> pauses playback, <strong>1-7</strong> selects the distance rating, and <strong>Cmd/Ctrl+Enter</strong> advances while the comment box is focused.<br/><br/>This batch begins with 1 practice example(s) that are not saved, followed by 66 scored trials."
+    content: "Marcussen listening test batch 20.<br/><br/>Each trial presents two audio files, item 1 and item 2. Rate how different they sound on a scale from 1 to 7, where 1 means most similar and 7 means incredibly different.<br/><br/>Keyboard shortcuts: <strong>Q</strong> plays item 1, <strong>W</strong> plays item 2, <strong>E</strong> plays item 1 then item 2, <strong>Space</strong> pauses playback, <strong>1-7</strong> selects the distance rating, and <strong>Cmd/Ctrl+Enter</strong> advances while the comment box is focused.<br/><br/>This batch begins with 2 practice example(s) that are not saved, followed by 68 scored trials."
   - type: volume
     id: "volume"
     name: "Volume"
@@ -33,470 +33,492 @@ pages:
     stimuli:
       1: "configs/resources/audio/marcussen_batches/batch_20/example_001_pair_285_item_1.wav"
       2: "configs/resources/audio/marcussen_batches/batch_20/example_001_pair_285_item_2.wav"
+  - type: paired_distance
+    id: "example_002_pair_2479"
+    name: "Example 002"
+    content: "Practice example: these two sounds come from the same organ but contrasting stops, so a high distance rating is expected."
+    storeResults: false
+    stimuli:
+      1: "configs/resources/audio/marcussen_batches/batch_20/example_002_pair_2479_item_1.wav"
+      2: "configs/resources/audio/marcussen_batches/batch_20/example_002_pair_2479_item_2.wav"
   -
     - random
     - type: paired_distance
-      id: "198"
+      id: "744"
       name: "Trial 001"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_001_pair_198_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_001_pair_198_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_001_pair_744_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_001_pair_744_item_2.wav"
     - type: paired_distance
-      id: "996"
+      id: "2002"
       name: "Trial 002"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_002_pair_996_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_002_pair_996_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_002_pair_2002_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_002_pair_2002_item_2.wav"
     - type: paired_distance
-      id: "1499"
+      id: "2416"
       name: "Trial 003"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_003_pair_1499_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_003_pair_1499_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_003_pair_2416_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_003_pair_2416_item_2.wav"
     - type: paired_distance
-      id: "1496"
+      id: "198"
       name: "Trial 004"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_004_pair_1496_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_004_pair_1496_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_004_pair_198_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_004_pair_198_item_2.wav"
     - type: paired_distance
-      id: "936"
+      id: "407"
       name: "Trial 005"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_005_pair_936_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_005_pair_936_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_005_pair_407_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_005_pair_407_item_2.wav"
     - type: paired_distance
-      id: "705"
+      id: "415"
       name: "Trial 006"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_006_pair_705_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_006_pair_705_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_006_pair_415_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_006_pair_415_item_2.wav"
     - type: paired_distance
-      id: "457"
+      id: "2395"
       name: "Trial 007"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_007_pair_457_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_007_pair_457_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_007_pair_2395_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_007_pair_2395_item_2.wav"
     - type: paired_distance
-      id: "1715"
+      id: "573"
       name: "Trial 008"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_008_pair_1715_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_008_pair_1715_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_008_pair_573_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_008_pair_573_item_2.wav"
     - type: paired_distance
-      id: "694"
+      id: "1767"
       name: "Trial 009"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_009_pair_694_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_009_pair_694_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_009_pair_1767_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_009_pair_1767_item_2.wav"
     - type: paired_distance
-      id: "1244"
+      id: "2815"
       name: "Trial 010"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_010_pair_1244_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_010_pair_1244_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_010_pair_2815_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_010_pair_2815_item_2.wav"
     - type: paired_distance
-      id: "2176"
+      id: "178"
       name: "Trial 011"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_011_pair_2176_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_011_pair_2176_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_011_pair_178_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_011_pair_178_item_2.wav"
     - type: paired_distance
-      id: "1922"
+      id: "2293"
       name: "Trial 012"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_012_pair_1922_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_012_pair_1922_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_012_pair_2293_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_012_pair_2293_item_2.wav"
     - type: paired_distance
-      id: "254"
+      id: "1334"
       name: "Trial 013"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_013_pair_254_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_013_pair_254_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_013_pair_1334_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_013_pair_1334_item_2.wav"
     - type: paired_distance
-      id: "2041"
+      id: "1493"
       name: "Trial 014"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_014_pair_2041_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_014_pair_2041_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_014_pair_1493_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_014_pair_1493_item_2.wav"
     - type: paired_distance
-      id: "1568"
+      id: "158"
       name: "Trial 015"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_015_pair_1568_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_015_pair_1568_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_015_pair_158_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_015_pair_158_item_2.wav"
     - type: paired_distance
-      id: "1738"
+      id: "1458"
       name: "Trial 016"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_016_pair_1738_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_016_pair_1738_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_016_pair_1458_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_016_pair_1458_item_2.wav"
     - type: paired_distance
-      id: "312"
+      id: "1891"
       name: "Trial 017"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_017_pair_312_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_017_pair_312_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_017_pair_1891_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_017_pair_1891_item_2.wav"
     - type: paired_distance
-      id: "985"
+      id: "1281"
       name: "Trial 018"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_018_pair_985_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_018_pair_985_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_018_pair_1281_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_018_pair_1281_item_2.wav"
     - type: paired_distance
-      id: "486"
+      id: "844"
       name: "Trial 019"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_019_pair_486_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_019_pair_486_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_019_pair_844_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_019_pair_844_item_2.wav"
     - type: paired_distance
-      id: "873"
+      id: "1360"
       name: "Trial 020"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_020_pair_873_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_020_pair_873_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_020_pair_1360_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_020_pair_1360_item_2.wav"
     - type: paired_distance
-      id: "1035"
+      id: "1077"
       name: "Trial 021"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_021_pair_1035_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_021_pair_1035_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_021_pair_1077_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_021_pair_1077_item_2.wav"
     - type: paired_distance
-      id: "860"
+      id: "1348"
       name: "Trial 022"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_022_pair_860_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_022_pair_860_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_022_pair_1348_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_022_pair_1348_item_2.wav"
     - type: paired_distance
-      id: "2077"
+      id: "2036"
       name: "Trial 023"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_023_pair_2077_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_023_pair_2077_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_023_pair_2036_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_023_pair_2036_item_2.wav"
     - type: paired_distance
-      id: "432"
+      id: "337"
       name: "Trial 024"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_024_pair_432_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_024_pair_432_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_024_pair_337_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_024_pair_337_item_2.wav"
     - type: paired_distance
-      id: "725"
+      id: "1755"
       name: "Trial 025"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_025_pair_725_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_025_pair_725_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_025_pair_1755_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_025_pair_1755_item_2.wav"
     - type: paired_distance
-      id: "1291"
+      id: "1988"
       name: "Trial 026"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_026_pair_1291_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_026_pair_1291_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_026_pair_1988_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_026_pair_1988_item_2.wav"
     - type: paired_distance
-      id: "1362"
+      id: "549"
       name: "Trial 027"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_027_pair_1362_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_027_pair_1362_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_027_pair_549_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_027_pair_549_item_2.wav"
     - type: paired_distance
-      id: "842"
+      id: "2164"
       name: "Trial 028"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_028_pair_842_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_028_pair_842_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_028_pair_2164_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_028_pair_2164_item_2.wav"
     - type: paired_distance
-      id: "714"
+      id: "613"
       name: "Trial 029"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_029_pair_714_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_029_pair_714_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_029_pair_613_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_029_pair_613_item_2.wav"
     - type: paired_distance
-      id: "624"
+      id: "731"
       name: "Trial 030"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_030_pair_624_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_030_pair_624_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_030_pair_731_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_030_pair_731_item_2.wav"
     - type: paired_distance
-      id: "1670"
+      id: "1822"
       name: "Trial 031"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_031_pair_1670_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_031_pair_1670_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_031_pair_1822_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_031_pair_1822_item_2.wav"
     - type: paired_distance
-      id: "1332"
+      id: "766"
       name: "Trial 032"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_032_pair_1332_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_032_pair_1332_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_032_pair_766_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_032_pair_766_item_2.wav"
     - type: paired_distance
-      id: "2120"
+      id: "2089"
       name: "Trial 033"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_033_pair_2120_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_033_pair_2120_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_033_pair_2089_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_033_pair_2089_item_2.wav"
     - type: paired_distance
-      id: "2106"
+      id: "1496"
       name: "Trial 034"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_034_pair_2106_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_034_pair_2106_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_034_pair_1496_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_034_pair_1496_item_2.wav"
     - type: paired_distance
-      id: "641"
+      id: "1784"
       name: "Trial 035"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_035_pair_641_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_035_pair_641_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_035_pair_1784_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_035_pair_1784_item_2.wav"
     - type: paired_distance
-      id: "2378"
+      id: "2097"
       name: "Trial 036"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_036_pair_2378_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_036_pair_2378_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_036_pair_2097_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_036_pair_2097_item_2.wav"
     - type: paired_distance
-      id: "1236"
+      id: "1164"
       name: "Trial 037"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_037_pair_1236_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_037_pair_1236_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_037_pair_1164_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_037_pair_1164_item_2.wav"
     - type: paired_distance
-      id: "2394"
+      id: "1066"
       name: "Trial 038"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_038_pair_2394_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_038_pair_2394_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_038_pair_1066_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_038_pair_1066_item_2.wav"
     - type: paired_distance
-      id: "802"
+      id: "751"
       name: "Trial 039"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_039_pair_802_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_039_pair_802_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_039_pair_751_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_039_pair_751_item_2.wav"
     - type: paired_distance
-      id: "964"
+      id: "229"
       name: "Trial 040"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_040_pair_964_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_040_pair_964_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_040_pair_229_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_040_pair_229_item_2.wav"
     - type: paired_distance
-      id: "189"
+      id: "1106"
       name: "Trial 041"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_041_pair_189_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_041_pair_189_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_041_pair_1106_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_041_pair_1106_item_2.wav"
     - type: paired_distance
-      id: "1085"
+      id: "1372"
       name: "Trial 042"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_042_pair_1085_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_042_pair_1085_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_042_pair_1372_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_042_pair_1372_item_2.wav"
     - type: paired_distance
-      id: "1977"
+      id: "606"
       name: "Trial 043"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_043_pair_1977_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_043_pair_1977_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_043_pair_606_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_043_pair_606_item_2.wav"
     - type: paired_distance
-      id: "14"
+      id: "2135"
       name: "Trial 044"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_044_pair_14_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_044_pair_14_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_044_pair_2135_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_044_pair_2135_item_2.wav"
     - type: paired_distance
-      id: "686"
+      id: "660"
       name: "Trial 045"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_045_pair_686_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_045_pair_686_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_045_pair_660_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_045_pair_660_item_2.wav"
     - type: paired_distance
-      id: "67"
+      id: "871"
       name: "Trial 046"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_046_pair_67_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_046_pair_67_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_046_pair_871_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_046_pair_871_item_2.wav"
     - type: paired_distance
-      id: "957"
+      id: "50"
       name: "Trial 047"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_047_pair_957_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_047_pair_957_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_047_pair_50_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_047_pair_50_item_2.wav"
     - type: paired_distance
-      id: "1429"
+      id: "1688"
       name: "Trial 048"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_048_pair_1429_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_048_pair_1429_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_048_pair_1688_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_048_pair_1688_item_2.wav"
     - type: paired_distance
-      id: "1389"
+      id: "643"
       name: "Trial 049"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_049_pair_1389_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_049_pair_1389_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_049_pair_643_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_049_pair_643_item_2.wav"
     - type: paired_distance
-      id: "1847"
+      id: "307"
       name: "Trial 050"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_050_pair_1847_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_050_pair_1847_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_050_pair_307_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_050_pair_307_item_2.wav"
     - type: paired_distance
-      id: "1342"
+      id: "1814"
       name: "Trial 051"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_051_pair_1342_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_051_pair_1342_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_051_pair_1814_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_051_pair_1814_item_2.wav"
     - type: paired_distance
-      id: "1689"
+      id: "314"
       name: "Trial 052"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_052_pair_1689_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_052_pair_1689_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_052_pair_314_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_052_pair_314_item_2.wav"
     - type: paired_distance
-      id: "1482"
+      id: "586"
       name: "Trial 053"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_053_pair_1482_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_053_pair_1482_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_053_pair_586_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_053_pair_586_item_2.wav"
     - type: paired_distance
-      id: "363"
+      id: "2009"
       name: "Trial 054"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_054_pair_363_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_054_pair_363_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_054_pair_2009_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_054_pair_2009_item_2.wav"
     - type: paired_distance
-      id: "1065"
+      id: "2178"
       name: "Trial 055"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_055_pair_1065_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_055_pair_1065_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_055_pair_2178_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_055_pair_2178_item_2.wav"
     - type: paired_distance
-      id: "595"
+      id: "2227"
       name: "Trial 056"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_056_pair_595_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_056_pair_595_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_056_pair_2227_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_056_pair_2227_item_2.wav"
     - type: paired_distance
-      id: "1543"
+      id: "1842"
       name: "Trial 057"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_057_pair_1543_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_057_pair_1543_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_057_pair_1842_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_057_pair_1842_item_2.wav"
     - type: paired_distance
-      id: "2264"
+      id: "964"
       name: "Trial 058"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_058_pair_2264_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_058_pair_2264_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_058_pair_964_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_058_pair_964_item_2.wav"
     - type: paired_distance
-      id: "6"
+      id: "103"
       name: "Trial 059"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_059_pair_6_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_059_pair_6_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_059_pair_103_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_059_pair_103_item_2.wav"
     - type: paired_distance
-      id: "1025"
+      id: "1408"
       name: "Trial 060"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_060_pair_1025_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_060_pair_1025_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_060_pair_1408_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_060_pair_1408_item_2.wav"
     - type: paired_distance
-      id: "22"
+      id: "121"
       name: "Trial 061"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_061_pair_22_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_061_pair_22_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_061_pair_121_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_061_pair_121_item_2.wav"
     - type: paired_distance
-      id: "2227"
+      id: "1749"
       name: "Trial 062"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_062_pair_2227_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_062_pair_2227_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_062_pair_1749_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_062_pair_1749_item_2.wav"
     - type: paired_distance
-      id: "1988"
+      id: "1483"
       name: "Trial 063"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_063_pair_1988_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_063_pair_1988_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_063_pair_1483_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_063_pair_1483_item_2.wav"
     - type: paired_distance
-      id: "653"
+      id: "1320"
       name: "Trial 064"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_064_pair_653_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_064_pair_653_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_064_pair_1320_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_064_pair_1320_item_2.wav"
     - type: paired_distance
-      id: "139"
+      id: "1831"
       name: "Trial 065"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_065_pair_139_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_065_pair_139_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_065_pair_1831_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_065_pair_1831_item_2.wav"
     - type: paired_distance
-      id: "1809"
+      id: "772"
       name: "Trial 066"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_20/trial_066_pair_1809_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_20/trial_066_pair_1809_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_066_pair_772_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_066_pair_772_item_2.wav"
+    - type: paired_distance
+      id: "1237"
+      name: "Trial 067"
+      content: ""
+      stimuli:
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_067_pair_1237_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_067_pair_1237_item_2.wav"
+    - type: paired_distance
+      id: "1154"
+      name: "Trial 068"
+      content: ""
+      stimuli:
+        1: "configs/resources/audio/marcussen_batches/batch_20/trial_068_pair_1154_item_1.wav"
+        2: "configs/resources/audio/marcussen_batches/batch_20/trial_068_pair_1154_item_2.wav"
   - type: finish
     name: "Thank you"
     content: "Thank you for completing this batch."
