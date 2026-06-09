@@ -287,10 +287,11 @@ function build_csv_datasets($session)
         'paired_distance' => dataset_rows(
             $trials,
             'paired_distance',
-            array_merge($participantHeader, array('trial_id', 'pair_id', 'stimulus_1', 'stimulus_2', 'distance', 'distance_comment', 'distance_time')),
+            array_merge($participantHeader, array('session_uuid', 'trial_id', 'pair_id', 'stimulus_1', 'stimulus_2', 'distance', 'distance_comment', 'distance_time')),
             $participantValues,
-            function ($trial, $response) {
+            function ($trial, $response) use ($uuid) {
                 return array(
+                    $uuid,
                     csv_value($trial->id ?? ''),
                     csv_value(extract_pair_id($trial->id ?? '')),
                     csv_value($response->stimulus1 ?? ''),

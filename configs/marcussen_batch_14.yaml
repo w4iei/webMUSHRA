@@ -23,7 +23,7 @@ pages:
     id: "volume"
     name: "Volume"
     content: "Adjust to a comfortable listening level before starting the examples and trials."
-    stimulus: "configs/resources/audio/marcussen_batches/batch_14/example_001_pair_2345_item_1.wav"
+    stimulus: "configs/resources/audio/marcussen_batches/clips/f3/f388e90c87307c2a_Rotterdam_T16_T8_Upper_Division_c0_CLOSE__toot2__trim__pitch_correct__normalize.wav"
     defaultVolume: 0.5
   - type: paired_distance
     id: "example_001_pair_2345"
@@ -31,16 +31,16 @@ pages:
     content: "Practice example: these two sounds come from the same pipe, so a rating near 1 is expected."
     storeResults: false
     stimuli:
-      1: "configs/resources/audio/marcussen_batches/batch_14/example_001_pair_2345_item_1.wav"
-      2: "configs/resources/audio/marcussen_batches/batch_14/example_001_pair_2345_item_2.wav"
+      1: "configs/resources/audio/marcussen_batches/clips/f3/f388e90c87307c2a_Rotterdam_T16_T8_Upper_Division_c0_CLOSE__toot2__trim__pitch_correct__normalize.wav"
+      2: "configs/resources/audio/marcussen_batches/clips/c4/c4e07672e9028f6a_Rotterdam_T16_T8_Upper_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
   - type: paired_distance
     id: "example_002_pair_2797"
     name: "Example 002"
     content: "Practice example: these two sounds come from the same organ but contrasting stops, so a high distance rating is expected."
     storeResults: false
     stimuli:
-      1: "configs/resources/audio/marcussen_batches/batch_14/example_002_pair_2797_item_1.wav"
-      2: "configs/resources/audio/marcussen_batches/batch_14/example_002_pair_2797_item_2.wav"
+      1: "configs/resources/audio/marcussen_batches/clips/97/9786675c5398cace_Linz_Dom_Ob8_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+      2: "configs/resources/audio/marcussen_batches/clips/fc/fcd47e330102aa54_Linz_Dom_VdG8_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
   -
     - random
     - type: paired_distance
@@ -48,484 +48,484 @@ pages:
       name: "Trial 001"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_001_pair_152_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_001_pair_152_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/77/7761168cce4280ac_Stockholm_Oscar_F4_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/a4/a4deb760ed1bc2b1_Copenhagen_Grundtvigs_F4_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2148"
       name: "Trial 002"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_002_pair_2148_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_002_pair_2148_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/fa/fac3b62575df3d7b_Linz_Dom_T8_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/c4/c4c0e36e2e76d8ab_Stockholm_Oscar_T8_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "796"
       name: "Trial 003"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_003_pair_796_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_003_pair_796_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/16/168c554eeb652b96_Stockholm_Oscar_P8_F8_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/0a/0ae32fe98361c6b4_Rotterdam_P8_F8_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2137"
       name: "Trial 004"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_004_pair_2137_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_004_pair_2137_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/b9/b931334f5aad152f_Stockholm_Oscar_T8_Main_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/49/49c7483bbc9073d3_Copenhagen_Grundtvigs_T8_Main_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1085"
       name: "Trial 005"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_005_pair_1085_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_005_pair_1085_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/91/919bac122d262d41_Copenhagen_Grundtvigs_O4_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/03/03c254f5421ab55d_Rotterdam_O4_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1329"
       name: "Trial 006"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_006_pair_1329_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_006_pair_1329_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/b2/b228f013964d7309_Linz_Dom_P8_Positive_Back_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/05/0521bf24081b6ba5_Copenhagen_Grundtvigs_P8_Positive_Back_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1884"
       name: "Trial 007"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_007_pair_1884_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_007_pair_1884_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/85/85300fcc09750a32_Stockholm_Oscar_Kr8_Positive_Back_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/25/25b9e28ea55bbae8_Rotterdam_Kr8_Positive_Back_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1593"
       name: "Trial 008"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_008_pair_1593_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_008_pair_1593_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/69/6945c2b22c8421e9_Linz_Dom_P8_O4_O2_Positive_Back_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/db/db9c3d9bc1be3320_Rotterdam_P8_O4_O2_Positive_Back_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1137"
       name: "Trial 009"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_009_pair_1137_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_009_pair_1137_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/c4/c4d9c7afad9cf9e0_Stockholm_Oscar_P16_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/9e/9e71ddfcf62411f6_Copenhagen_Grundtvigs_P16_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1440"
       name: "Trial 010"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_010_pair_1440_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_010_pair_1440_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/40/4009360059271343_Rotterdam_P8_O4_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/e3/e3df75980ebf3c4d_Linz_Dom_P8_O4_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2228"
       name: "Trial 011"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_011_pair_2228_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_011_pair_2228_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/94/947cce510ec2cdec_Linz_Dom_T8_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/da/da8b3eee09863a70_Stockholm_Oscar_T8_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "961"
       name: "Trial 012"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_012_pair_961_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_012_pair_961_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/7f/7f1b2a99c03ad9e6_Linz_Dom_O4_Main_Division_c1_CLOSE__toot2__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/d3/d37fc4f80e18d831_Linz_Dom_O4_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1567"
       name: "Trial 013"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_013_pair_1567_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_013_pair_1567_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/55/559489b774a36173_Linz_Dom_P8_O4_O2_Main_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/b7/b789908b04277d2a_Copenhagen_Grundtvigs_P8_O4_O2_Main_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1299"
       name: "Trial 014"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_014_pair_1299_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_014_pair_1299_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/cb/cbc6d711ca40359e_Rotterdam_P8_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/56/569387ede3e6cd8d_Copenhagen_Grundtvigs_P8_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "695"
       name: "Trial 015"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_015_pair_695_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_015_pair_695_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/7e/7ed3961bb728f7fb_Linz_Dom_F8_F4_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/02/02e25f7f7d8ceff1_Stockholm_Oscar_F8_F4_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1251"
       name: "Trial 016"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_016_pair_1251_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_016_pair_1251_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/4a/4a321c5563ffc03b_Stockholm_Oscar_P8_Main_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/79/79f631ab21ec4fa2_Copenhagen_Grundtvigs_P8_Main_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "473"
       name: "Trial 017"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_017_pair_473_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_017_pair_473_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/20/209566f180aeea35_Rotterdam_F8_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/db/db0136595fd02b8c_Copenhagen_Grundtvigs_F8_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "191"
       name: "Trial 018"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_018_pair_191_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_018_pair_191_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/45/45ebd6d96d707aed_Linz_Dom_F4_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/cc/cc21d32d9219b00e_Stockholm_Oscar_F4_Upper_Division_TF_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1682"
       name: "Trial 019"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_019_pair_1682_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_019_pair_1682_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/96/96070d91b5b8552b_Copenhagen_Grundtvigs_P8_O4_Q3_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/72/72feb9592dadc6e4_Stockholm_Oscar_P8_O4_Q3_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "987"
       name: "Trial 020"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_020_pair_987_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_020_pair_987_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/0e/0e6419dfef46ab10_Stockholm_Oscar_O4_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/92/9231eb9b934d0c38_Copenhagen_Grundtvigs_O4_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2018"
       name: "Trial 021"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_021_pair_2018_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_021_pair_2018_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/b8/b890ea9b1c3f2940_Linz_Dom_T16_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/dd/dd74ad5d68186581_Copenhagen_Grundtvigs_T16_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "26"
       name: "Trial 022"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_022_pair_26_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_022_pair_26_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/fb/fbd8c08d0e59f839_Rotterdam_F16_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/53/53dac72e0a998778_Stockholm_Oscar_F16_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "741"
       name: "Trial 023"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_023_pair_741_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_023_pair_741_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/21/21e1a63e4206d653_Copenhagen_Grundtvigs_F8_F4_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/f4/f48ed049b46e5bfd_Linz_Dom_F8_F4_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1155"
       name: "Trial 024"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_024_pair_1155_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_024_pair_1155_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/23/2383bf56ef099329_Rotterdam_P16_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/6c/6c0e84f33c7a66c9_Copenhagen_Grundtvigs_P16_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2355"
       name: "Trial 025"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_025_pair_2355_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_025_pair_2355_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/76/76f81503b7bc7572_Linz_Dom_VH8_Positive_Console_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/a7/a708a32fd5c31399_Stockholm_Oscar_VH8_Positive_Console_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2796"
       name: "Trial 026"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_026_pair_2796_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_026_pair_2796_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/fc/fcd47e330102aa54_Linz_Dom_VdG8_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/c4/c4ada41ecb9f36de_Linz_Dom_P8_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1357"
       name: "Trial 027"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_027_pair_1357_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_027_pair_1357_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/5d/5d429c0df916c231_Linz_Dom_P8_Positive_Back_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/54/548b81d7bd6096d9_Copenhagen_Grundtvigs_P8_Positive_Back_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1402"
       name: "Trial 028"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_028_pair_1402_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_028_pair_1402_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/e8/e8a8086ac079cd69_Linz_Dom_P8_O4_Main_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/5b/5be41632b81fa38c_Stockholm_Oscar_P8_O4_Main_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2331"
       name: "Trial 029"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_029_pair_2331_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_029_pair_2331_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/ab/ab1704d198415650_Linz_Dom_T16_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/20/20f74e5ac2aafa3a_Rotterdam_T16_Upper_Division_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "486"
       name: "Trial 030"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_030_pair_486_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_030_pair_486_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/bf/bfc7593cf39d0592_Linz_Dom_F8_Upper_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/81/812cf4a0f3e88f2e_Stockholm_Oscar_F8_Upper_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2283"
       name: "Trial 031"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_031_pair_2283_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_031_pair_2283_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/bc/bc73961723995656_Linz_Dom_T8_T4_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/cb/cb42ccc9e28597a8_Stockholm_Oscar_T8_T4_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1913"
       name: "Trial 032"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_032_pair_1913_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_032_pair_1913_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/69/6963e892b476c6a5_Linz_Dom_Kr8_Positive_Back_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/7d/7d78850dc2f3472e_Stockholm_Oscar_Kr8_Positive_Back_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1923"
       name: "Trial 033"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_033_pair_1923_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_033_pair_1923_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/25/25f9c075ff41baa6_Linz_Dom_Kr8_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/00/007d08e00ab95545_Stockholm_Oscar_Kr8_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "724"
       name: "Trial 034"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_034_pair_724_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_034_pair_724_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/5c/5cfc6dd94317c7c4_Copenhagen_Grundtvigs_F8_F4_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/ff/ffdd068af13e85e9_Stockholm_Oscar_F8_F4_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "547"
       name: "Trial 035"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_035_pair_547_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_035_pair_547_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/b5/b5e36476025cbb2f_Copenhagen_Grundtvigs_F8_F2_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/52/527e8a4348db07fa_Copenhagen_Grundtvigs_F8_F2_Upper_Division_C_CLOSE__toot2__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2361"
       name: "Trial 036"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_036_pair_2361_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_036_pair_2361_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/8d/8d007904fce2a01e_Linz_Dom_VH8_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/44/441e6ec31b454050_Stockholm_Oscar_VH8_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "592"
       name: "Trial 037"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_037_pair_592_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_037_pair_592_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/3e/3e4b30186d45f1b6_Rotterdam_F8_F4_Main_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/4e/4ef856d4abee1dbf_Copenhagen_Grundtvigs_F8_F4_Main_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2101"
       name: "Trial 038"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_038_pair_2101_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_038_pair_2101_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/82/8214188a683476bc_Stockholm_Oscar_T32_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/c0/c085a8cf28c59f1c_Rotterdam_T32_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "626"
       name: "Trial 039"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_039_pair_626_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_039_pair_626_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/12/126419cb501e0094_Stockholm_Oscar_F8_F4_Pedal_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/e0/e0ebe4b274410f44_Rotterdam_F8_F4_Pedal_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "87"
       name: "Trial 040"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_040_pair_87_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_040_pair_87_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/46/461341a77e4a5128_Linz_Dom_F4_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/ca/ca43fce81435e399_Stockholm_Oscar_F4_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2087"
       name: "Trial 041"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_041_pair_2087_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_041_pair_2087_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/2b/2bec0b9751b210a8_Copenhagen_Grundtvigs_T32_Pedal_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/d5/d5dd5b65dfb2444a_Rotterdam_T32_Pedal_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1727"
       name: "Trial 042"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_042_pair_1727_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_042_pair_1727_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/83/83840f3285194665_Stockholm_Oscar_O4_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/55/5523ea9b3a8da14d_Linz_Dom_O4_Positive_Console_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1196"
       name: "Trial 043"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_043_pair_1196_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_043_pair_1196_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/bc/bce0611eeec69365_Linz_Dom_P16_P8_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/27/2758c12ea0fd5595_Rotterdam_P16_P8_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1288"
       name: "Trial 044"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_044_pair_1288_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_044_pair_1288_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/e7/e7458b945e0cf02a_Copenhagen_Grundtvigs_P8_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/48/48d18a7a4a41eaa2_Linz_Dom_P8_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1375"
       name: "Trial 045"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_045_pair_1375_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_045_pair_1375_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/5a/5aac7e0c8c74a498_Stockholm_Oscar_P8_Positive_Back_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/4a/4a72b74075effd9e_Copenhagen_Grundtvigs_P8_Positive_Back_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1734"
       name: "Trial 046"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_046_pair_1734_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_046_pair_1734_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/4a/4a651cf3d1d7e252_Rotterdam_O4_Positive_Console_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/e4/e4d4a7c75192e304_Stockholm_Oscar_O4_Positive_Console_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2107"
       name: "Trial 047"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_047_pair_2107_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_047_pair_2107_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/88/88cbadf7b67aa296_Copenhagen_Grundtvigs_T32_T16_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/0f/0ff74aed8f5d6a0e_Rotterdam_T32_T16_Pedal_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "632"
       name: "Trial 048"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_048_pair_632_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_048_pair_632_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/25/256b6086fd02adc8_Rotterdam_F8_F4_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/dd/dd5c5d8d18d3f173_Copenhagen_Grundtvigs_F8_F4_Pedal_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "655"
       name: "Trial 049"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_049_pair_655_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_049_pair_655_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/99/9902ab39189c7d3f_Linz_Dom_F8_F4_Positive_Back_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/b5/b5d8e353145bfc23_Stockholm_Oscar_F8_F4_Positive_Back_c1_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1258"
       name: "Trial 050"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_050_pair_1258_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_050_pair_1258_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/7b/7bc7bce20c081651_Copenhagen_Grundtvigs_P8_Main_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/fe/fe3aaa309988fea0_Linz_Dom_P8_Main_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2325"
       name: "Trial 051"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_051_pair_2325_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_051_pair_2325_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/33/33a386553ab94dda_Linz_Dom_T16_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/f4/f47e740e633f563f_Rotterdam_T16_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2319"
       name: "Trial 052"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_052_pair_2319_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_052_pair_2319_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/e3/e3d43e7da4125a0c_Linz_Dom_R16_Positive_Console_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/cf/cfe609b0a652d7a7_Rotterdam_R16_Positive_Console_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2156"
       name: "Trial 053"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_053_pair_2156_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_053_pair_2156_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/43/43cd116874eb7761_Linz_Dom_T8_Main_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/0c/0c02fdbf4282948e_Rotterdam_T8_Main_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "906"
       name: "Trial 054"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_054_pair_906_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_054_pair_906_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/06/06fcf19cb8c0e708_Stockholm_Oscar_P8_F8_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/e4/e48df4785a51721e_Rotterdam_P8_F8_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1386"
       name: "Trial 055"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_055_pair_1386_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_055_pair_1386_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/ae/ae11b3763a47fa65_Rotterdam_P8_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/85/85bb112a014f4fb8_Copenhagen_Grundtvigs_P8_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "733"
       name: "Trial 056"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_056_pair_733_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_056_pair_733_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/bf/bfd6b42b231cf75d_Rotterdam_F8_F4_Upper_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/a6/a6e21516e245d3b7_Linz_Dom_F8_F4_Upper_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "576"
       name: "Trial 057"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_057_pair_576_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_057_pair_576_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/d1/d1fcf36769ff7764_Stockholm_Oscar_F8_F4_Main_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/41/4163108e5abfbdd2_Rotterdam_F8_F4_Main_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2684"
       name: "Trial 058"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_058_pair_2684_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_058_pair_2684_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/9e/9ed82512b63e3d05_Stockholm_Oscar_F8_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/29/2923974fa6a76f40_Stockholm_Oscar_P8_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "672"
       name: "Trial 059"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_059_pair_672_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_059_pair_672_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/9b/9bff46e0e4056af0_Rotterdam_F8_F4_Positive_Console_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/99/99ef89cf744b2ca5_Copenhagen_Grundtvigs_F8_F4_Positive_Console_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "133"
       name: "Trial 060"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_060_pair_133_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_060_pair_133_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/14/14428cf62982ec84_Copenhagen_Grundtvigs_F4_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/80/80dc3e74bea4a9dc_Linz_Dom_F4_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "503"
       name: "Trial 061"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_061_pair_503_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_061_pair_503_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/d8/d81da979149d904c_Copenhagen_Grundtvigs_F8_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/bd/bd263cdbc8540d96_Rotterdam_F8_Upper_Division_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "424"
       name: "Trial 062"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_062_pair_424_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_062_pair_424_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/e8/e84fd81339aee4b8_Linz_Dom_F8_Positive_Console_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/61/61c6033722923103_Rotterdam_F8_Positive_Console_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1652"
       name: "Trial 063"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_063_pair_1652_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_063_pair_1652_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/c7/c769622d95fae332_Copenhagen_Grundtvigs_P8_O4_O2_Mix_Cymbel_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__no.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/a4/a4addedf759fdd1f_Stockholm_Oscar_P8_O4_O2_Mix_Cymbel_Main_Division_c1_CLOSE__toot1__trim__pitch_correct__normaliz.wav"
     - type: paired_distance
       id: "127"
       name: "Trial 064"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_064_pair_127_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_064_pair_127_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/e3/e34696327a893580_Linz_Dom_F4_Positive_Back_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/d2/d2d12c7c5854dfc5_Copenhagen_Grundtvigs_F4_Positive_Back_c2_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "179"
       name: "Trial 065"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_065_pair_179_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_065_pair_179_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/26/2612769f690b6ab6_Copenhagen_Grundtvigs_F4_Upper_Division_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/ab/ab292bf70175c365_Stockholm_Oscar_F4_Upper_Division_KF_c0_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "977"
       name: "Trial 066"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_066_pair_977_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_066_pair_977_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/a2/a232f3db032f9109_Copenhagen_Grundtvigs_O4_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/4c/4c3e018044637800_Stockholm_Oscar_O4_Main_Division_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "665"
       name: "Trial 067"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_067_pair_665_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_067_pair_665_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/b3/b3b35e174d2ef9c6_Linz_Dom_F8_F4_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/78/782895b3220ab5cc_Copenhagen_Grundtvigs_F8_F4_Positive_Back_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "1739"
       name: "Trial 068"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_068_pair_1739_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_068_pair_1739_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/36/36afacdc126e0ce4_Stockholm_Oscar_O4_Positive_Console_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/eb/eba38c6237873fa3_Linz_Dom_O4_Positive_Console_c3_CLOSE__toot1__trim__pitch_correct__normalize.wav"
     - type: paired_distance
       id: "2206"
       name: "Trial 069"
       content: ""
       stimuli:
-        1: "configs/resources/audio/marcussen_batches/batch_14/trial_069_pair_2206_item_1.wav"
-        2: "configs/resources/audio/marcussen_batches/batch_14/trial_069_pair_2206_item_2.wav"
+        1: "configs/resources/audio/marcussen_batches/clips/f3/f3194141133a58d2_Linz_Dom_T8_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
+        2: "configs/resources/audio/marcussen_batches/clips/73/73340c0eb2fafa51_Rotterdam_T8_Upper_Division_C_CLOSE__toot1__trim__pitch_correct__normalize.wav"
   - type: finish
     name: "Thank you"
     content: "Thank you for completing this batch."
